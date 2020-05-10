@@ -1,0 +1,2 @@
+ LOAD DATA LOCAL INFILE '/home/gaian/Downloads/AirDataTB2017.csv' INTO TABLE air_data FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS (station_id,Pollutant,date,h01,h02,h03,h04,h05,h06,h07,h08,h09,h10,h11,h12,h13,h14,h15,h16,h17,h18,h19,h20,h21,h22,h23,h24);
+
